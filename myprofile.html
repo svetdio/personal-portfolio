@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>My Profile</title>
+    
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css'>
+				<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css'>
+    
+    <style type= "text/css">
+      
+      .student-profile .card .card-header .profile_img {
+      width: 200px;
+      height: 300px;
+      object-fit: cover;
+      margin: 10px auto;
+      border: 15px solid;
+      color: #F535AA;
+      border-radius: 40%;
+      }
+      
+      body {
+      background: #0041C2; 
+      padding: 0;
+      margin: 0;
+      display: inline-block;
+      height: 100vh;
+      justify-content: center;
+      align-items: center;
+      font-family: 'Trebuchet MS', sans-serif;
+      color: #000000;
+      }
+      
+      .landscape {
+      max-width: 100%;
+      height: auto;
+      }
+ 
+      
+      .breadcrumbs {
+      width: 1337px;
+      height: 110px;
+      font-size: 35px;
+  
+      }
+      
+      .profile .card {
+      border-radius: 50px;
+      }
+      
+      .profile .card h3 {
+      font-size: 25px;
+      font-weight: 700;
+      }
+      
+      .profile .card p {
+      font-size: 16px;
+      color: #000800;
+      }
+      
+      .profile .table th,
+      .profile .table td {
+      font-size: 14px;
+      padding: 5px 10px;
+      color: #000800;
+      }
+    
+    </style>
+  </head>
+  
+  <body>
+    
+    <div class="landscape">
+      <img src="photos/cover.png" alt="profile cover" width="1337" height="260">
+    </div>
+    
+    <div class="breadcrumbs bg-secondary">
+      <nav aria-label="breadcrumb" class="main-breadcrumb">
+        <ol class="breadcrumb justify-content-center">
+          <li class="breadcrumb-item"><a href ="home.html" >Home</a></li>
+          <li class="breadcrumb-item active" aria-current="myprofile.html">My Profile</li>
+          <li class="breadcrumb-item"><a href ="aboutme.html" >About Me</a></li>
+        </ol>
+      </nav>
+    </div>
+    
+    <div class="student-profile py-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="card shadow-sm">
+              <div class="card-header bg-secondary text-center">
+                <img class="profile_img" src="photos/me.jpg" alt="svetimage" >
+                <h3><b>SVET JAZMINE DIO</b></h3>
+                <h6>&lowast;&lowast;Aspiring Programmer | Amateur Multimedia Proffesional&lowast;&lowast;</h6>       
+              </div>
+              
+              <div class="card-body">
+                <div class="card mt-3">
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
+                      <h6 class="mb-0"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-home mr-2 icon-inline text-primary"><path d="M8 3.293l6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6zm5-.793V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/><path fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"></path></svg>Address</h6>
+                      <span class="text-secondary">12 Medrano Apartment, Alapan 1-B, Imus City, Cavite, Philippines 4103</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
+                      <h6 class="mb-0"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-telephone mr-2 icon-inline text-primary"><path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"></path></svg>Contact Number</h6>
+                      <span class="text-secondary">0916-308-1183</span>
+                      </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
+                      <h6 class="mb-0"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-mail mr-2 icon-inline text-primary"><path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z"></path></svg>Email Address</h6>
+                      <span class="text-secondary">svetjazminedio@gmail.com / svetjazmine.dio@cvsu.edu.ph</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
+                      <h6 class="mb-0"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-facebook mr-2 icon-inline text-primary"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>Facebook</h6>
+                      <span class="text-secondary">facebook.com/<br>svetjazminedio28</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+                
+              <div class="card-body">
+                <h6 class="d-flex align-items-center mb-3"><b class="material-icons text-info mr-2">SKILLS</b></h6>
+                <small>Personal Skills</small>
+                <div class="progress mb-3" style="height: 5px">
+                <div class="progress-bar bg-primary" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <small>Technical Skills</small>
+                <div class="progress mb-3" style="height: 5px">
+                <div class="progress-bar bg-primary" role="progressbar" style="width: 87%" aria-valuenow="87" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <small>Communication Skills</small>
+                <div class="progress mb-3" style="height: 5px">
+                <div class="progress-bar bg-primary" role="progressbar" style="width: 82%" aria-valuenow="82" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <small>Computer Skills</small>
+                <div class="progress mb-3" style="height: 5px">
+                <div class="progress-bar bg-primary" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <small>Arts and Crafts Skills</small>
+                         
+                <div class="progress mb-3" style="height: 5px">
+                <div class="progress-bar bg-primary" role="progressbar" style="width: 83%" aria-valuenow="83" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <small>Programmimg Skills</small>
+                         
+                <div class="progress mb-3" style="height: 5px">
+                <div class="progress-bar bg-primary" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-lg-8">
+            <div class="card shadow-sm">
+              <div class="card-header bg-secondary border-0">
+                <h3 class="mb-0"><i class="far fa-clone pr-1"></i><b>Profile</b></h3>
+              </div>
+              <p class="text-darken mb-1 text-center">Studied computer-related courses for almost 6 years and counting. Skilled in doing multimedia stuffs inside and outside the school. Has initial knowledge in Java and Python Programming Language, also has an ability to create a simple webpage using HTML/CSS. Can do basic troubleshooting of a Computer for both sofware and hardware. Multi-tasker and can work under pressure. Always motivated and willing to learn new things. Can work with others and excellent in communication. Can learn fast and can easily adapt things in surroundings.</p>
+            </div>
+            
+            <div style="height: 26px"></div>
+            <div class="card shadow-sm">
+              <div class="card-header bg-secondary border-0">
+                <h3 class="mb-0"><i class="far fa-clone pr-1"></i><b>Education</b></h3>
+              </div>
+              <div class= "card-body pt-0">
+                <table class= "table table-bordered">
+                  <tr>
+                    <th><b>Year</b></th>
+                    <th><b>Degree</b></th>
+                    <th><b>Course/Strand</b></th>
+                    <th><b>School</b></th>
+                    <th><b>Address</b></th>
+                  </tr>
+                  <tr>
+                    <td>2020-2024 (Expected Graduation)</td>
+                    <td>College</td>
+                    <td>Bachelor of Science in Computer Science</td>
+                    <td>Cavite State University-Imus</td>
+                    <td>Palico IV, Imus City, Cavite</td>
+                    </tr>
+                    <tr>
+                      <td>2018-2020</td>
+                      <td>Secondary (Senior High)</td>
+                      <td>Information Communications Technology (Computer Systems Servicing)</td>
+                      <td>Gov. Juanito Reyes Remulla Senior High School</td>
+                      <td>Medicion II-B, Imus City, Cavite</td>
+                    </tr>
+                    <tr>
+                      <td>2014-2018</td>
+                      <td>Secondary (Junior High)</td>
+                      <td>-</td>
+                      <td>Imus National High School</td>
+                      <td>Bukandala III, Imus City, Cavite</td>
+                    </tr>
+                    <tr>
+                      <td>2008-2014</td>
+                      <td>Primary</td>
+                      <td>-</td>
+                      <td>Tinabunan Elementary School</td>
+                      <td>Pag-asa I, Imus City, Cavite</td>
+                      </tr>
+                </table>
+              </div>
+            </div>
+                
+            <div style="height: 26px"></div>
+            <div class="card shadow-sm">
+              <div class="card-header bg-secondary border-0">
+                <h3 class="mb-0"><i class="far fa-clone pr-1"></i><b>Volunteer Experience</b></h3>
+              </div>
+              
+              <dl>
+                <div class="card-header bg-light border-0">
+                  <dt><b>Seminars/Trainings Attendend</b>
+                  </dt>
+                </div>
+                <dd><b>Graphics and Digital Arts Seminar and Workshop</b> <br>Training Center, The District Imus City, Cavite <br>August 1, 2019</dd>
+                <br>
+                <dd><b>Plug IT: JPCS Tech Caravan</b><br>Imus Institute of Science and Technology, Imus City, Cavite<br>February 15, 2019</dd>
+                <br>
+                <dd><b>Work Simulation</b><br>Gov. Juanito Reyes Remulla Senior High School, Toclong II-B, Imus City, Cavite<br>November 8-9, 2018</dd>
+                <br>
+                <dd><b>Capacity Building on Science Investigatory Project</b><br>Gov. Junaito Reyes Remulla Senior High School, Toclong II-B, Imus City, Cavite<br>September 28, 2018</dd>
+                <br>
+                <dd><b>COMTECH Computer Literacy Training</b><br>Datacom Institute of Computer Technology (Imus Branch)<br>January 27, 2013</dd>
+                <br>
+                <div class="card-header bg-light border-0">
+                  <dt><b>Clubs and Organizations</b>
+                  </dt>
+                </div>
+                <dd><b>School-based Organizations</b><br>Gov. Juanito Reyes Remulla Senior High School<br>Toclong II-B, Imus City, Cavite</dd>
+                <ul>
+                  <li><b>Pick Strings Band</b><br>Vocalist<br>June 2019</li>
+                  <li><b>Artistas Club</b><br>Technical Support<br>January 2019</li>
+                  <li><b>YES-O Club</b><br>Secretary<br>June 2018</li>
+                </ul>
+              </dl>
+              <dl>
+                <div class="card-header bg-light border-0">
+                  <dt><b>Awards and Consolations</b>
+                  </dt>
+                </div>
+                <dd>
+                  <table class= "table table-bordered">
+                    <tr>
+                      <th><b>2020<br></b><i>(Gov. Juanito Reyes Remulla Senior High School)</i></th>
+                      <td>:</td>
+                      <td><b>Academic Awards</b><br>With High Honors<br>Best in Communication Arts in English<br>Best in Science<br>Best in Mathematics<br>Best in Social Sciences<br>Best in Computer Systems Servicing<br>Best in Research and Innovation<br>Best in Work Immersion
+                      <br>
+                        <b>Special Awards (Club Achievement Award)</b><br>Pickstring Band<br>Artistas Club</td>
+                    </tr>
+                    <tr>
+                      <th><b>2019</b><br><i>(Gov. Juanito Reyes Remulla Senior High School)</i></th>
+                      <td>:</td>
+                      <td><b>Academic Award</b><br>With Honors</td>
+                    </tr>
+                    <tr>
+                      <th><b>2018</b><br><i>(Imus National High School)</i></th>
+                      <td>:</td>
+                      <td><b>Academic Award</b><br>With Honors<br>Conduct Awardee</td>
+                    </tr>
+                    <tr>
+                      <th><b>2017</b><br><i>Imus National High School</i></th>
+                      <td>:</td>
+                      <th><b>Academic Award</b><br>Conduct Award</th>
+                    </tr>
+                    <tr>
+                      <th><b>2016</b><br><i>(Imus National High School)</i></th>
+                      <td>:</td>
+                      <td><b>Academic Award</b><br>Class Achiever<i></i> (Natatanging Mag-aaral)</td>
+                      </tr>
+                  </table>
+                </dd>
+              </dl>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>
