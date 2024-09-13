@@ -54,21 +54,6 @@ body {
     color: white;
 }
 
-.nav-icon {
-    margin-top: 7px;
-    margin-left: 24px;
-    cursor: pointer;
-    transition: transform 0.3s ease;
-}
-
-.nav-icon:hover {
-    transform: scale(1.5);
-}
-
-.nav-icon img {
-    width: 24px;
-}
-
 /* NAVBAR RESPONSIVENESS */
 @media (max-width: 768px) {
     .navbar {
@@ -195,14 +180,13 @@ body {
   }
   
 .dev {
-    width: 400px;
-    height: 450px;
+    width: 600px;
     object-fit: cover;
-    object-position: 100% 0;
-    border-radius: 50%;
+    /* object-position: 100% 0; */
+    border-radius: 0%;
     position: absolute;
-    right: 15%;
-    top: 20%;
+    right: 12%;
+    top: 15%;
     animation: bounce 2s ease-in-out;
 }
  
@@ -258,20 +242,12 @@ body {
     background-color: #ffffff;
     position: relative;
     width: auto;
-    top: 2rem;
+    /* top: 1rem; */
     text-justify: auto;
     padding: 3%;
     padding-left: 16px; 
     padding-right: 16px; 
     height: fit-content;
-}
-
-.about-me h4,
-.tech h4 {
-    margin-top: 3rem;
-    font-size: 1.875rem;
-    font-weight: 600;
-    color: #3B82F6;
 }
 
 .about-me p,
