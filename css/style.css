@@ -239,20 +239,19 @@ body {
 /* ABOUT ME */
 .about-container {
     display: block;
-    background-color: #ffffff;
+    background-color: #f3f4f6;
     position: relative;
     width: auto;
     /* top: 1rem; */
     text-justify: auto;
-    padding: 3%;
+    padding: 6%;
     padding-left: 16px; 
     padding-right: 16px; 
     height: fit-content;
 }
 
-.about-me p,
-.tech p {
-    margin-top: 1rem;
+.about-me p{
+    margin-top: 2rem;
     font-size: 1.25rem;
     text-align: justify;
     color: #6B7280;
@@ -324,65 +323,30 @@ body {
 
 
 /* SERVICES */
-.services-container {
-    display: block;
-    background-color: #f3f4f6;
-    position: relative;
-    width: auto;
-    top: 0%;
-    /* margin-top: 0vh; */
-    text-justify: auto;
-    padding: 7%;
-    padding-left: 20px; 
-    padding-right: 20px;
-    height: fit-content;
-}
-
-.services-container h4, .projects-container h4, .contact-container h4 {
-    margin-top: 3rem;
-    font-size: 1.875rem;
-    font-weight: 600;
-    color: #3B82F6;
-}
-
-.service-container {
+.photo-container {
     display: flex;
     flex-direction: row;
-    align-items: center;
     padding-inline: 8%;
+    justify-content: center;
 }
 
-.service-card {
-    width: 350px;
-    height: 350px;
-    background-color: #ffffff;
+.photo-card {
+    width: 400px;
+    height: 450px;
     border-radius: 0.5rem;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    margin: 1rem;
+    margin-top: 5rem;
+    margin: 3rem;
     padding: 1rem;
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center;
     overflow: hidden;
 }
 
-.service-card img {
-    width: 64px;
-    height: 64px;
-}
-
-.service-title {
-    font-size: 1.3rem;
-    font-weight: bold;
-    margin-top: 1rem;
-}
-
-.service-description {
-    font-size: 1.1rem;
-    margin-top: 0.5rem;
-    color: #000000;
-    text-align: justify;
+.photo-card img {
+    height: 420px;
+    width: 100%;
 }
 
 /*SERVICES RESPONSIVENESS */
