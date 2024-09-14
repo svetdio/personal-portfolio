@@ -687,16 +687,16 @@ body {
 
 /* FOOTER */
 .footer-container {
-    width: 100%;
-    background-color: white;
+    /* width: 100%; */
+    background-color: rgb(179, 158, 179);
     color: black;
     font-size: 18px;
     padding: 10px 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 80px;
-    height: 10px;
+    /* margin-top: 80px; */
+    height: fit-content;
     margin-bottom: 10px;
 }
 
