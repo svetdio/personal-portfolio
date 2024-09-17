@@ -332,7 +332,6 @@ body {
 }
 
 
-/* SERVICES */
 .photo-container {
     display: flex;
     flex-direction: row;
@@ -354,6 +353,11 @@ body {
     overflow: hidden;
 }
 
+.photo-card:hover { 
+    transform: translateY(-4px);
+    transition: transform 100ms ease-in-out;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
 .photo-card img {
     height: 420px;
     width: 100%;
@@ -371,6 +375,7 @@ body {
     padding-left: 16px; 
     padding-right: 16px; 
     height: fit-content;
+    /* padding-bottom: 6%; */
 }
 
 .project-wrapper {
@@ -394,6 +399,7 @@ body {
 
 .project-card:hover {
     transform: translateY(-4px);
+    transition: transform 100ms ease-in-out;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
@@ -680,17 +686,19 @@ body {
 
 /* FOOTER */
 .footer-container {
-    /* width: 100%; */
+    width: auto;
+    position: relative;
     background-color: rgb(179, 158, 179);
     color: black;
     font-size: 18px;
-    padding: 10px 0;
+    padding: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
     /* margin-top: 80px; */
     height: fit-content;
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
+    margin-top: 100px;
 }
 
 
