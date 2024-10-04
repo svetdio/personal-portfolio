@@ -10,6 +10,15 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/versions/bulma-no-dark-mode.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script scr="https://cdn.datatables.net/2.1.7/js/dataTables.js"></script>
+    <script scr="https://cdn.datatables.net/2.1.7/js/dataTables.bulma.js"></script>
+    <script src="https://code.jquery.com/ui/1.14.0/jquery-ui.js"></script>
+    <script>
+        $( function() {
+          $( "#tabs" ).tabs();
+        } );
+    </script>
 
 </head>
 
@@ -26,7 +35,7 @@
                     <a href="#home" class="nav-link">Home</a>
                     <a href="#about" class="nav-link">About</a>
                     <a href="#projects" class="nav-link">Projects</a>
-                    <a href="#experience" class="nav-link">Experience</a>
+                    <!-- <a href="#experience" class="nav-link">Experience</a> -->
                     <a href="#skill" class="nav-link">Skills</a>
                 </div>
             </div>
@@ -87,7 +96,7 @@
                 <h2>About Me</h2>
             </div>
             <div class="about-me">
-                <p>I graduated magna cum laude under the program BS Computer Science at Cavite State University Imus Campus. I had a year experience working in a Digital Event Solutions as a Quality Assurance Tester.
+                <p>I recently graduated magna cum laude under the program BS Computer Science at Cavite State University Imus Campus. I had a year experience working in a Digital Event Solutions as a Quality Assurance Tester.
                     I do end to end tests of software and web apps both in manual and automated process. I have developed my strong foundation in algorithms, various programming languages, web development, and machine learning through my academe. 
                     I am also eager to learn more about data science and analysis.
                 </p>
@@ -224,6 +233,138 @@
         </div>
         
         <!-- SKILLS -->
+        <div id="skill" class="skill-container">
+            <div>
+                <h2>Skills</h2>
+            </div>
+            <div class="tab">
+                <div id="tabs">
+                    <ul>
+                        <li><a href="#tabs-1">Technical Skills</a></li>
+                        <li><a href="#tabs-2">Soft Skills</a></li>
+                    </ul>
+            
+                    <!-- TABS 1 -->
+                    <div id="tabs-1" class="tech-container">
+                        <div class="tech-card">
+                            <img src="assets/prog-lang/html5.svg" alt="HTML" class="icon">
+                            <h4>HTML</h4>
+                        </div>
+                        <div class="tech-card">
+                            <img src="assets/prog-lang/css.svg" alt="CSS" class="icon">
+                            <h4>CSS</h4>
+                        </div>
+                        <div class="tech-card">
+                            <img src="assets/prog-lang/bootstrap-plain.svg" alt="Bootstrap" class="icon">
+                            <h4>Bootstrap</h4>
+                        </div>
+                        <div class="tech-card">
+                            <img src="assets/prog-lang/bulma.svg" alt="Bulma CSS" class="icon">
+                            <h4>Bulma CSS</h4>
+                        </div>
+                        <div class="tech-card">
+                            <img src="assets/prog-lang/tailwindcss-icon.svg" alt="Tailwind CSS" class="icon">
+                            <h4>Tailwind CSS</h4>
+                        </div>
+                        <div class="tech-card">
+                            <img src="assets/prog-lang/javascript-original.svg" alt="JavaScript" class="icon">
+                            <h4>JavaScript</h4>
+                        </div>
+                        <div class="tech-card">
+                            <img src="assets/prog-lang/ts.svg" alt="TypeScript" class="icon">
+                            <h4>TypeScript</h4>
+                        </div>
+                        <div class="tech-card">
+                            <img src="assets/prog-lang/php.svg" alt="PHP" class="icon">
+                            <h4>PHP</h4>
+                        </div>
+                        <!-- <div class="tech-card">
+                            <img src="assets/prog-lang/node.svg" alt="NodeJS" class="icon">
+                            <h4>NodeJS</h4>
+                        </div> -->
+                        <div class="tech-card">
+                            <img src="assets/prog-lang/cypress.svg" alt="Cypress" class="icon">
+                            <h4>Cypress</h4>
+                        </div>
+                        <div class="tech-card">
+                            <img src="assets/prog-lang/browserstack.svg" alt="Browserstack" class="icon">
+                            <h4>Browserstack</h4>
+                        </div>
+                        <div class="tech-card">
+                            <img src="assets/prog-lang/mysql.png" alt="MySQL" class="icon">
+                            <h4>MySQL</h4>
+                        </div>
+                        <div class="tech-card">
+                            <img src="assets/prog-lang/python.svg" alt="Python" class="icon">
+                            <h4>Python</h4>
+                        </div>
+                        <div class="tech-card">
+                            <img src="assets/prog-lang/ml.svg" alt="ML" class="icon">
+                            <h4>Machine Learning</h4>
+                        </div>
+                        <div class="tech-card">
+                            <img src="assets/prog-lang/nlp.svg" alt="NLP" class="icon">
+                            <h4>Natural Language Processing</h4>
+                        </div>
+                        <div class="tech-card">
+                            <img src="assets/prog-lang/pd.svg" alt="Pandas" class="icon">
+                            <h4>Pandas</h4>
+                        </div>
+                        <div class="tech-card">
+                            <img src="assets/prog-lang/scikit-learn.svg" alt="Scikit-learn" class="icon">
+                            <h4>Scikit-learn</h4>
+                        </div>
+                        <div class="tech-card">
+                            <img src="assets/prog-lang/google-colab.svg" alt="Google Colab" class="icon">
+                            <h4>Google Colab</h4>
+                        </div>
+                        <div class="tech-card">
+                            <img src="assets/prog-lang/git-plain.svg" alt="Git" class="icon">
+                            <h4>Git</h4>
+                        </div>
+                        <div class="tech-card">
+                            <img src="assets/prog-lang/github.svg" alt="GitHub" class="icon">
+                            <h4>GitHub</h4>
+                        </div>
+                        <div class="tech-card">
+                            <img src="assets/prog-lang/gitlab.svg" alt="GitLab" class="icon">
+                            <h4>GitLab</h4>
+                        </div>
+                    </div>
+
+                    <!-- TABS 2 -->
+                    <div id="tabs-2" class="soft-container">
+                        <div class="soft-card">
+                            <img src="assets/soft-skill/adapt.svg" alt="Adaptive" class="icon">
+                            <h4>Adaptive</h4>
+                        </div>
+                        <div class="soft-card">
+                            <img src="assets/soft-skill/attention.png" alt="Attention to Detail" class="icon">
+                            <h4>Attention to Detail</h4>
+                        </div>
+                        <div class="soft-card">
+                            <img src="assets/soft-skill/solve.svg" alt="Problem-solver" class="icon">
+                            <h4>Problem-solver</h4>
+                        </div>
+                        <div class="soft-card">
+                            <img src="assets/soft-skill/creative.svg" alt="creative" class="icon">
+                            <h4>Creative</h4>
+                        </div>
+                        <div class="soft-card">
+                            <img src="assets/soft-skill/goal.svg" alt="Goal-oriented" class="icon">
+                            <h4>Goal-oriented</h4>
+                        </div>
+                        <div class="soft-card">
+                            <img src="assets/soft-skill/collab.svg" alt="Collaborative" class="icon">
+                            <h4>Collaborative</h4>
+                        </div>
+                        
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
          
         <!-- CONTACT -->
         <!-- <div id="contact" class="contact-container">
