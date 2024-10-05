@@ -609,7 +609,6 @@ hr.solid {
 
     /*  */
     .home-container {
-        height: auto;
         display: block;
         /* padding: 0px; */
     }
@@ -617,18 +616,22 @@ hr.solid {
     .header {
         padding: 10vh 10px;
         text-align: center;
-        margin-top: 20px;
+        padding-top: 40%;
     }
 
     .header h1 {
-        font-size: 2.4em;
+        flex-wrap: wrap;
     }
 
-    .subheader,
-    .typing,
-    .home-desc {
+    .subheader {
         width: 100%;
-        font-size: .8rem;
+        font-size: 1rem;
+        
+    }
+
+    .typing {
+        width: 100%;
+        font-size: .6rem;
         
     }
 
@@ -650,9 +653,10 @@ hr.solid {
     }
 
     .dev {
-        /* display: none; */
-        position: relative;
-        height: 10vh;
+        display: none;
+        position: absolute;
+        height: 70vh;
+        overflow: hidden;
     }
 /*  */
 
