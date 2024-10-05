@@ -650,17 +650,34 @@ hr.solid {
     }
 
     .dev {
-        display: none;
+        /* display: none; */
+        position: relative;
+        height: 10vh;
     }
+/*  */
 
+    .about-me p{
+        margin-top: 2rem;
+        font-size: 1rem;
+        text-align: justify;
+        color: #6B7280;
+    }
     .photo-container {
         flex-direction: column;
         padding-inline: 0;
+        /* justify-content: center; */
     }
 
     .photo-card {
-        width: 100%;
-        height: auto;
+        width: 300px;
+        height: 350px;
+        border-radius: 20%;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);  
+
+    }
+
+    .photo-card img {
+        border-radius: 50%; 
     }
 
     /* Adjust project cards for smaller screens */
