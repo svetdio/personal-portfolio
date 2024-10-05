@@ -550,3 +550,111 @@ hr.solid {
     border-top: 4px solid rgb(179, 158, 179);
   }
 
+
+/* Responsive Styles for Mobile */
+@media screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .navbar-brand a img {
+        width: 120px;
+        margin-left: 1vh;
+    }
+
+    .home-container {
+        height: auto;
+        display: block;
+        padding: 10px;
+    }
+
+    .header {
+        padding: 10vh 10px;
+        text-align: center;
+    }
+
+    .header h1 {
+        font-size: 2.4em;
+    }
+
+    .subheader,
+    .typing,
+    .home-desc {
+        width: 100%;
+        font-size: 1em;
+    }
+
+    .social-links {
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 20px;
+    }
+
+    .social-links img {
+        width: 35px;
+    }
+
+    .resume {
+        width: 80%;
+        font-size: 18px;
+        margin: 20px auto;
+    }
+
+    .dev {
+        display: none;
+    }
+
+    .photo-container {
+        flex-direction: column;
+        padding-inline: 0;
+    }
+
+    .photo-card {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Adjust project cards for smaller screens */
+    .project-wrapper {
+        flex-direction: column;
+        gap: 30px;
+        padding-inline: 5%;
+    }
+
+    .project-card {
+        width: 100%;
+    }
+
+    /* Skills section */
+    .tech-container {
+        grid-template-columns: repeat(2, 1fr);
+        padding-inline: 2rem;
+    }
+
+    .soft-container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+
+    .soft-card, .tech-card {
+        width: 100%;
+    }
+
+    /* Contact section */
+    .contact-section {
+        flex-direction: column;
+        gap: 2rem;
+        padding-left: 5%;
+    }
+
+    /* Footer */
+    .footer-container {
+        padding: 20px;
+        font-size: 16px;
+    }
+
+    .footer-text {
+        font-size: 14px;
+    }
+}
