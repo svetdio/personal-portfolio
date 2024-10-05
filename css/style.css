@@ -664,7 +664,7 @@ body {
 .footer-container {
     width: auto;
     position: relative;
-    background-color: rgb(179, 158, 179);
+    background-color: #ffffff;
     color: black;
     font-size: 18px;
     padding: 10px;
@@ -673,7 +673,7 @@ body {
     align-items: center;
     /* margin-top: 80px; */
     height: fit-content;
-    /* margin-bottom: 10px; */
+    margin-bottom: 10px;
     /* margin-top: 100px; */
 }
 
@@ -683,8 +683,8 @@ body {
 }
 
 hr.solid {
-    margin-top: 110px;
-    border-top: 1px solid #000000;
+    margin-top: 100px;
+    border-top: 4px solid rgb(179, 158, 179);
   }
 
 /* Responsive adjustment for smaller screens */
