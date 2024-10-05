@@ -661,6 +661,10 @@ hr.solid {
     }
 /*  */
 
+    .about-container, .projects-container, .skill-container {
+        padding-top: 15%;
+    }
+    
     .about-me p{
         margin-top: 2rem;
         font-size: 1rem;
