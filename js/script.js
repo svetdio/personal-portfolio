@@ -1,3 +1,9 @@
+        
+function toggleNav() {
+    var navMenu = document.getElementById('navMenu');
+    navMenu.classList.toggle('is-active');
+}
+
 const texts = ["Web Developer", "QA Tester", "Data Analyst"];
 let count = 0;
 let index = 0;
