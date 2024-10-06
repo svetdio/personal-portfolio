@@ -529,7 +529,6 @@ body {
     position: relative;
     background-color: #ffffff;
     color: black;
-    font-size: 18px;
     padding: 10px;
     display: flex;
     justify-content: center;
@@ -541,8 +540,10 @@ body {
 }
 
 .footer-text {
-    font-weight:700;
-
+    font-size: 25px;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-weight: 300;
+    font-style: italic;
 }
 
 hr.solid {
@@ -550,25 +551,13 @@ hr.solid {
     border-top: 4px solid rgb(179, 158, 179);
   }
 
-  .navbar {
-    background-color: white;
-    border-bottom: 1px solid #e5e7eb;
-  }
-  
-  .navbar-end {
-    display: flex;
-  }
-  
-  .navbar-burger {
-    display: none;
-    cursor: pointer;
-  }
+
 
 /* Responsive Styles for Mobile */
 @media only screen and (max-width: 767px) {
 
     body {
-        font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+        font-family: "Roboto", "Helvetica Neue", Arial, sans-serif;
     }
     
     .navbar {
@@ -577,11 +566,12 @@ hr.solid {
 
     .navbar-brand a img {
         width: 200px;
-        margin-left: 1vh;
+        margin-left: .1rem;
     }
 
     .navbar-burger {
         display: block;
+        color: rgb(179, 158, 179);
     }
     
     .navbar-end {
@@ -637,8 +627,7 @@ hr.solid {
 
     .typing {
         width: 100%;
-        font-size: .870rem;
-        
+        font-size: .70rem;        
     }
 
     .social-links {
@@ -685,11 +674,16 @@ hr.solid {
 
     .photo-card {
         width: 35vh;
-        /* height: 20vh; */
+        height: auto;
         border-radius: 3.5 rem;
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);  
-
     }
+
+    .photo-card img {
+        width: 100%;
+        height: 70%;
+    }
+
 
     /* Adjust project cards for smaller screens */
     .project-wrapper {
@@ -723,7 +717,7 @@ hr.solid {
     }
 
     .icon {
-        width: 2.5rem;
+        width: 2rem;
         height: 2.5rem;
     }
 
