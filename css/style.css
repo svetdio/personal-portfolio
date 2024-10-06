@@ -103,10 +103,14 @@ body {
 }
 
 .cursor {
-    content: "|";
     display: inline-block;
-    animation: blink 1s infinite step-start;
+    animation: blink 800ms step-start infinite;
 }
+    @keyframes blink {
+        50% {
+            opacity: 0;
+        }
+    }
 
 .home-desc {
     font-size: 1.3em;
@@ -655,7 +659,11 @@ hr.solid {
     }
 /*  */
 
-    .about-container, .projects-container, .skill-container {
+    .about-container, .projects-container, .skill-container{
+        padding-top: 20%;
+    }
+
+    .contact-container{
         padding-top: 15%;
     }
     
@@ -730,7 +738,7 @@ hr.solid {
 
     /* Footer */
     .footer-container {
-        padding: 20px;
+        padding-top: 0%;
         font-size: 16px;
     }
 
@@ -738,4 +746,8 @@ hr.solid {
         font-size: 18px;
     }
 
+    hr.solid {
+        margin-top: 50px;
+        border-top: 4px solid rgb(179, 158, 179);
+      }
 }
